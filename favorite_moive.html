@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>self introduction</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+            .frame>h1{
+                font-family: 'Jua', sans-serif;
+                text-align: center;
+                font-size: 5rem;
+            }
+            .frame{
+                margin: 1px 150px;
+                display :flex;
+                flex-direction: column;
+            }
+            .frame_2{
+                margin: 1px 150px;
+                display :flex;
+                justify-content: space-between;
+            }
+            .navigator{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color:gray;
+            }
+            .navigator>ul>li{
+                 margin-left:1rem;
+                 display:inline;
+            }
+            .nav-menu{
+                color:gray;
+                font-family: 'Jua', sans-serif;
+                font-size: 1rem;
+            }
+            a:hover{
+                color:cornflowerblue;
+            }
+            .dashboard{
+                border-top:1px solid black;
+                line-height: 2;
+                font-size:2rem;
+            }
+            .main{
+                text-decoration: none;
+                color:black;
+            }
+            h2{
+                text-align: center;
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div class="frame">
+            <h1> <a class= "main" href="home.html">Self Introduction</a></h1>
+            <nav class="navigator">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a class="nav-menu" href="home.html">Home</a></li>
+                    <li><a class="nav-menu" href="about.html">About</a></li>
+                    <li><a class="nav-menu" href="favorite.html">Favorite</a></li>
+                </ul>
+
+            </nav>
+            <div class="dashboard">
+                <h2>취미</h2>
+                <div class="frame_2">
+                    <ul>
+                        <li><strong><a>영화</a></strong></li>
+                        <li><strong><a>음악</a></strong></li>
+                        <li><strong><a>축구</a></strong></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
