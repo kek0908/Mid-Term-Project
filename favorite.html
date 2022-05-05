@@ -15,13 +15,18 @@
                 display :flex;
                 flex-direction: column;
             }
+            .frame_2{
+                margin: 1px 150px;
+                display :flex;
+                justify-content: space-between;
+            }
             .navigator{
                 display:flex;
                 flex-direction: row;
                 justify-content: space-between;
                 color:gray;
             }
-            li{
+            .navigator>ul>li{
                  margin-left:1rem;
                  display:inline;
             }
@@ -36,6 +41,7 @@
             .dashboard{
                 border-top:1px solid black;
                 line-height: 2;
+                font-size:2rem;
             }
             .main{
                 text-decoration: none;
@@ -62,8 +68,14 @@
 
             </nav>
             <div class="dashboard">
-                <h1>오픈소스SW활용 2분반<br>
-                    안녕하세요! 권은기입니다.</h1>
+                <h2>취미</h2>
+                <div class="frame_2">
+                    <ul>
+                        <li><strong><a>영화</a></strong></li>
+                        <li><strong><a>음악</a></strong></li>
+                        <li><strong><a>축구</a></strong></li>
+                    </ul>
+                </div>
 
             </div>
         </div>
